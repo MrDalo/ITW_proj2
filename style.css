@@ -1,0 +1,730 @@
+
+
+
+/* Globalne nastavenia - START*/
+html{
+	scroll-behavior: smooth;
+	overflow: scroll;
+}
+
+body{
+	position: relative;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif, Arial;
+}
+
+
+*{
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	
+}
+
+h1{
+	font-size: 6.5vw;
+	
+}
+
+h2{
+	font-size: 36px;
+	color: black;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 26px;
+	color: black;
+	text-transform: uppercase;
+}
+
+* h2{
+	padding-bottom: 30px;
+	border-bottom-style: solid;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+} 
+
+/* Globalne nastavenia - END*/
+
+
+/* Nastavenia uvodneh obrazku, menu a textu - START*/
+nav h2{
+	color: black;
+	text-align: left;
+
+}
+
+
+#menu{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: none; 	
+	margin: 0px;
+	position: absolute;
+	transition: 2s;
+	width: 100%;
+	text-align: center;
+	background-color: #5e7cbf;
+	opacity: 1;
+	animation-duration: 1s;
+    z-index: 5;
+    opacity: 0.9;
+}
+
+#menu li {
+	padding: 15px;
+	color: white;
+	font-style: none;
+	font-size: 30px;
+
+
+}
+
+#menu li a{
+	color: white;
+}
+
+nav #burger{
+	position: absolute;
+	display: initial;
+	right: 40px;
+	top: 20px;
+	color: white;
+	z-index: 6;
+}
+
+
+.introduction {
+	position: relative;
+}
+
+
+.introduction div{
+	text-align: left;
+	color: 	white;
+	position: absolute;
+	left: 20%;
+	width: 45%;
+	bottom: 30%;
+	z-index: 1;
+}
+
+.arrow{
+	display: none;
+}
+
+.introduction p{
+	font-size: 3vw;
+}
+
+.introduction img{
+	width: 100%;
+}
+
+.introbig{
+	display: none;
+}
+
+/* Nastavenia uvodneh obrazku, menu a textu - END*/
+
+
+/* Sekcia O Mne - START*/
+#omne{
+	margin-top: 100px;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 100px;
+}
+
+#omne h2{
+	color: #5e7cbf;
+	margin-bottom: 50px;
+}
+
+#omne img{
+	position: relative;
+	left:35%;
+	right: 35%;
+	border-radius: 50%;
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+#omne p{
+	font-size: 16px;
+}
+/* Sekcia O Mne - END*/
+
+/*VZDELANIE - START*/
+#vzdelanie{
+	color: black;
+	background-color: whitesmoke;
+	padding: 5%;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+#vzdelanie h2, #vzdelanie h3{
+	color:#5e7cbf;
+}
+
+#vzdelanie .content{
+	margin-top: 100px;
+	text-align: center;
+}
+
+#vzdelanie img{
+	display: none;
+}
+
+#vzdelanie div:nth-of-type(1){
+	padding-bottom: 30px;
+}
+.nadpis{
+	padding-bottom: 20px;
+}
+/*VZDELANIE - END*/
+
+/*certifikaty - START*/
+#certifikaty{
+	padding: 5%;
+	margin-bottom: 30px;
+}
+
+#certifikaty h2{
+	color: #5e7cbf ;
+	margin-bottom: 100px;
+}
+
+#certifikaty table{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+
+#certifikaty tr:nth-child(2n+1){
+	background-color: #a2c2f2;
+	color: white;
+	padding-bottom: 20px;
+
+}
+
+#certifikaty tr:nth-child(2n){
+	background-color: whitesmoke;
+
+}
+
+
+#certifikaty th{
+	text-align:center;
+	background-color: #5e7cbf;
+	font-size: 20px;
+	height: 80px;
+}
+
+#certifikaty td{
+	height: 50px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+/*certifikaty - END*/
+
+
+/*prax - START*/
+#prax .content{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-row-gap: 1%;
+	padding: 5%;
+	text-align: center;
+
+}
+
+#prax{
+	padding: 5%;
+	padding-bottom: 150px;
+	background-image: url("60line.png");
+}
+
+#prax .content div{
+	border-radius: 5%;
+	box-shadow: 2px 2px 3px black;
+	background-color: whitesmoke;
+}
+
+#prax h2{
+	margin-bottom: 60px;
+	color: white;
+}
+
+ #prax h3{
+	color:#5e7cbf;
+}
+
+#prax .nadpis{
+	padding-bottom: 0px;
+}
+
+
+#prax .content{
+	padding:5%;
+}
+
+.content .datum{
+	color: #4d4d4d;
+	font-size: 14px;
+}
+
+.content .last{
+	margin-bottom: 5%;
+}
+
+#prax img{
+	width: 60%;
+	position: relative;
+	padding-top:20px;
+	padding-bottom: 10%;
+}
+/*prax - END*/
+
+
+/*SKILLS - START*/
+#skills h2 {
+	margin-top: 80px;
+	color: #5e7cbf;
+	border-color: #5e7cbf;
+}
+
+#skills .content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-row-gap: 1%;
+	padding: 5%;
+	text-align: center;
+	grid-row-gap: 100px;
+	padding-bottom: 100px;
+
+}
+
+#skills img{
+	width: 40%;
+
+}
+/*SKILLS - END*/
+
+/*HOBBY - START */
+#hobby{
+	padding: 5%;
+	color:white;
+	background-image: url("60line.png");
+	padding-bottom: 540px;
+}
+
+#hobby h2{
+	color: white;
+	border-color: white;
+}
+/*HOBBY - END*/
+
+/*KONTAKT - START */
+#kontakt{
+	position: absolute;
+	display: inline-block;
+	z-index: 3;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	height: 470px;
+	bottom: 100px;
+	background-color: white;
+	width: 80%;
+	box-shadow: 2px 2px 3px black;
+	
+	padding: 5%;
+	padding-top: 10px;
+	text-align:left;
+	align-items: center;
+
+}
+
+#kontakt h2{
+	
+	border-top-style: none;
+	
+	color: #5e7cbf; /*#5e7cbf;*/
+	padding: 0px;
+	padding-bottom: 2%;
+}
+
+#kontakt table{
+	font-size: 16px;
+	
+	width: 100%;
+	
+}
+
+#kontakt td{
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-style: dashed;
+	border-color: #7a7a7a;
+}
+/*KONTAKT - END */
+
+/*FOOT - START*/
+footer{
+	display: inline-block;
+  	vertical-align: middle;
+	position: relative;	
+	width: 100%;
+	bottom: 0;	
+	right: 0px;
+	left: 0px;
+	height: 160px;
+	background-color: #4d4c4c;
+	text-align: center;
+
+}
+
+
+
+footer p{
+	color: white;
+	font-size: 14px;
+	padding-top: 70px;
+}
+/*FOOT - END*/
+
+/*Pri zmene rozlisenia na min-width 768px sa preformatuej stranka 
+  pre PC monitor. Riadil som sa pravidol, ze najskor stranku robime pre mobilne zariadenia, potom pre PC monitor.
+*/
+@media only screen and (min-width: 768px){
+	/*Globalne nastavenia  - START*/
+	body{
+		font-size: 16px;
+	}
+
+	h1{
+		font-size: 4.5vw;
+	}
+
+	h2{
+		font-size: 36px;
+		color: black;
+		text-transform: uppercase;
+	}
+
+	h3{
+		font-size: 26px;
+		color: black;
+		text-transform: uppercase;
+	}
+	/*Globalne nastavenia  - END*/
+
+	/*Nastavenia uvodneh obrazku, menu a textu - START*/
+	.introbig{
+		display: initial;
+	}
+
+	.introsmall{
+		display: none;
+	}
+
+	.introduction div{
+	text-align: center;
+	color: 	white;
+	position: absolute;
+	left: 30%;
+	width: 40%;
+	bottom: 40%;
+	}
+
+	.introduction p{
+		font-size: 1.5vw;
+	}
+
+
+	#menu{
+		padding: 0px;
+		padding-top: 30px;
+		padding-right: 60px;
+		display: inline; 	
+		margin: 0px;
+		position: absolute;
+		float: left;
+		width: 100%;
+		text-align: right;
+		background-color: transparent;
+		
+    	z-index: 5;
+    	
+	}
+
+	#menu li {	
+		display: inline-block;
+		padding: 0px;
+
+		padding-right: 0.5%;
+		padding-left: 0.5%;
+		width: auto;
+		font-style: none;
+		font-size: 20px;
+		border-right-style: solid;
+		border-color: white; 
+	}
+
+	#menu li a{
+		color: white;
+		padding-bottom: 4px;
+	}
+
+	#menu li a:hover{
+		color: white;
+		
+		border-bottom: dotted;
+
+
+	}
+
+	label .burger{
+		width: 0px;
+		height: 0px;
+		visibility: hidden;
+		display: none;
+	}
+
+	i{
+		visibility: hidden;
+	}
+
+
+	.introduction .arrow{
+
+		display: initial;
+		position: absolute;
+		width: 4%;
+		left:48%;
+		right:48%;
+		bottom: 10%;
+	}
+	/*Nastavenia uvodneh obrazku, menu a textu - END*/
+
+
+
+	/*OMNE - START*/
+	#omne{
+	margin-top: 2%;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 100px;
+	}
+
+	#omne img{
+		position: relative;
+		left:42.5%;
+		right: 42.5%;
+		width: 15%;
+	}
+
+	#omne p{
+		font-size: 16px;
+	}
+	/*OMNE - END*/
+
+	
+
+	/*VZDELANIE - START*/
+	#vzdelanie{
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+
+	#vzdelanie .content{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 10%;
+
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	#vzdelanie .content div{
+		border-radius: 5%;
+		box-shadow: 1px 1px 5px #7a7a7a;
+		text-align: center;
+		padding: 15px;
+	}
+
+
+	#vzdelanie img{
+		position: relative;
+		left: 48%;
+		right: 48%;
+		display: initial;
+		width: 4%;
+	}
+	/*VZDELANIE - END*/
+
+	/*CERTIFIKATY - START*/
+	#certifikaty{
+		transition: height 2s;
+		padding-top: 2%;
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+
+	#certifikaty th{
+		font-size: 20px;
+	}
+
+	#certifikaty td{
+		font-size: 16px;
+	}	
+	/*CERTIFIKATY - END*/
+
+
+	/*PRAX - START*/
+
+	#prax .content{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 15%;
+		grid-row-gap: 5%;
+		padding: 0%;
+		text-align: center;
+
+	}
+	
+	#prax .content div{
+		border-radius: 0%;
+		box-shadow: 1px 1px 5px black;
+	}
+
+
+	#prax .content div:nth-last-of-type(1){
+ 
+  		justify-content: center;
+  		grid-column-start: span 2;
+  		width: 100%
+	}
+
+	#prax .content div:nth-last-of-type(1) img{
+  		width: 30%
+	}
+
+	#prax{
+		padding: 15%;
+		padding-top: 2%;
+		padding-bottom: 300px;
+		background-color: whitesmoke;
+	}
+
+
+	.content .datum{
+		color: #4d4d4d;
+		font-size: 12px;
+	}
+
+	.content .last{
+		margin-bottom: 5%;
+	}
+
+	#prax img{
+		padding-bottom: 5%;
+	}
+	/*PRAX - END*/
+	
+	/*SKILLS - START*/
+	#skills{
+		padding-right: 15%;
+		padding-left: 15%;
+		padding-top: 50px;
+	}
+
+	#skills h2 {
+		margin-bottom: 80px;
+		color: #5e7cbf;
+		border-color: #5e7cbf;
+	}
+
+	#skills .content{
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto;
+		grid-row-gap: 15%;
+		padding: 0%;
+		align-content: center;
+		align-items: center;
+
+		padding-bottom: 180px;
+		padding-left: 17%;
+		
+		width: 100%
+		
+	}
+
+
+	#skills div{
+		
+		display: inline-block;
+		width: 50%;
+	}
+
+	#skills img{
+		
+		width: 100%;
+	}
+	/*SKILLS - END*/
+
+	/*HOBBY - END*/
+	#hobby{
+		padding-top: 3%;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	#hobby h2{
+		margin-bottom: 5%;
+	}
+	/*HOBBY - END*/
+
+	/*KONTAKT - START*/
+	#kontakt{
+		margin-left: 20%;
+		margin-right: 20%;
+		padding-left: 10%;
+		padding-right: 10%;
+		width: 60%;
+	}
+
+	#kontakt table{
+		font-size: 16px;
+		width: 100%;
+	}
+
+	#kontakt td{
+		padding-left: 20%;
+		border-bottom-style: dotted;
+	}
+	/*KONTAKT - END*/
+
+	/*FOOT - START*/
+	footer p{
+		font-size: 14px;
+		padding-top: 80px;
+	}
+	/*FOOT - END*/
+}
